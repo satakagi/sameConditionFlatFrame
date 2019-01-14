@@ -31,7 +31,7 @@ This almost worked. I was able to acquire the condition not to be saturated with
 * Sigma-clipping
 
 #### Reference image 1 (Without flat frame)
-This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cool pixel stretches and it is diagonally striped. The image is quite stretched so that noise emerges.
+This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cool pixel stretches and it is diagonally striped AKA "Walking Noise". The image is quite stretched so that noise emerges.
 
 ![Without flat frame](/img/nonFlat.png) 
 
@@ -42,7 +42,7 @@ This is a live stacked image using a normal flat frame made in a bright environm
 ![A normal flat frame was applied](/img/normalFlat.png) 
 
 
-#### "Same Condition Flat Frame" is applied
+#### The Result: "Same Condition Flat Frame" is applied
 This is a live stacked image using the "Same Condition Flat Frame". All other conditions are the same as above.
 How about that. I think that the striped pattern has become almost invisible. Just to be sure, I tried shooting two photos on the same night.
 
