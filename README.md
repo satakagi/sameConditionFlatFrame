@@ -28,7 +28,7 @@ This almost worked. I was able to acquire the condition not to be saturated with
 * Imager: ASI1800MM-C (-10 degree celsius)
 * Gain: 600 (Maximum)
 * Binning:2
-* Delta-clipping
+* Sigma-clipping
 
 #### Reference image 1 (Without flat frame)
 This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cool pixel stretches and it is diagonally striped. The image is quite stretched so that noise emerges.
