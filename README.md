@@ -15,3 +15,8 @@ Note: This method has little confirmation and is only a hypothesis. If you are i
 
 ### Hypothesis
 There is a possibility that the flat frame has an effect of correcting variations in the sensitivity of pixels. However, if the sensitivity of a pixel varies nonlinearly, the flat frame captured in a bright environment does not work well. Therefore, it is preferable to use a flat frame captured using the same photographing condition under the same light amount as the object to be photographed.
+
+## Practice
+In order to verify this hypothesis, firstly I had to apply very little light to the CMOS imager. For this I decided to use a film that is used to shoot the sun. And controllable light.
+
+This almost worked. I was able to acquire the condition not to be saturated with the exposure for 10 seconds, maximum gain (600) and temperature of -10 celsius with ASI 1600MM-C. This shooting condition is often when I shoot the diffuse nebula with Hα filter. And I made a flat frame stacked from 300 frames using SharpCap's Flat Frame capture function. Then just set this "Same Condition Flat Frame" to SharpCap's Flat Frame and try live stacking!
