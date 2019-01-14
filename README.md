@@ -12,3 +12,6 @@ The cold pixel is not a pixel that is not working at all, it is a pixel with con
 
 ## Same Condition Flat Frame
 Note: This method has little confirmation and is only a hypothesis. If you are interested, I am happy that you will validate the hypothesis.
+
+### Hypothesis
+There is a possibility that the flat frame has an effect of correcting variations in the sensitivity of pixels. However, if the sensitivity of a pixel varies nonlinearly, the flat frame captured in a bright environment does not work well. Therefore, it is preferable to use a flat frame captured using the same photographing condition under the same light amount as the object to be photographed.
