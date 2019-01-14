@@ -1,3 +1,5 @@
+## Introduction
+
 I am an amateur astronomy enthusiast who enjoys celestial photography using a method of stacking a large amount of short exposure with CMOS imager.
 
 Here, when stretching dark and sparse objects such as diffuse nebulas, I had a problem with cold pixels. Also, compared to CCD, CMOS imager is subject to variation in sensitivity of each pixel.
@@ -8,3 +10,5 @@ In such circumstances, I saw this blog article. https://apranat.exblog.jp/281297
 
 The cold pixel is not a pixel that is not working at all, it is a pixel with considerably low sensitivity. And, its sensitivity should decrease nonlinearly with decreasing light quantity. Then, he figured out a method to recognize and remove cool pixels, but I thought cool pixels as "effective pixels with extremely low sensitivity but effective pixels" and by improving the accuracy of the flat frame, I attempted to eliminate the dispersion of sensitivity. Because it's easier to post-process and the processing method can basically be handled the same as the flat frame. And it seems to be compatible with live stacking.
 
+## Same Condition Flat Frame
+Note: This method has little confirmation and is only a hypothesis. If you are interested, I am happy that you will validate the hypothesis.
