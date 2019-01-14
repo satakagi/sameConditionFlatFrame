@@ -42,7 +42,7 @@ This is a live stacked image using a normal flat frame made in a bright environm
 ![A normal flat frame was applied](/img/normalFlat.png) 
 
 
-#### Image applying "Same Condition Flat Frame"
+#### "Same Condition Flat Frame" is applied
 This is a live stacked image using the "Same Condition Flat Frame". All other conditions are the same as above.
 How about that. I think that the striped pattern has become almost invisible. Just to be sure, I tried shooting two photos on the same night.
 
