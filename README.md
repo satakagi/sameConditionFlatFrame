@@ -22,10 +22,7 @@ In order to verify this hypothesis, firstly I had to apply very little light to 
 This almost worked. I was able to acquire the condition not to be saturated with the exposure for 10 seconds, maximum gain (600) and temperature of -10 celsius with ASI 1600MM-C. This shooting condition is often when I shoot the diffuse nebula with Hα filter. And I made a flat frame stacked from 300 frames using SharpCap's Flat Frame capture function. Then just set this "Same Condition Flat Frame" to SharpCap's Flat Frame and try live stacking!
 
 ### Experimental result
-#### Reference image 1 (Without flat frame)
-This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cool pixel stretches and it is diagonally striped. The image is quite stretched so that noise emerges.
-
-##### conditions
+#### common conditions
 * Exposure time/frame: 10 sec 
 * 180 frames stacked (Total 30minutes)
 * Imager: ASI1800MM-C (-10 degree celsius)
@@ -33,18 +30,19 @@ This is a live stacked image by SharpCap without using flat. Since guiding is no
 * Binning:2
 * Delta-clipping
 
+#### Reference image 1 (Without flat frame)
+This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cool pixel stretches and it is diagonally striped. The image is quite stretched so that noise emerges.
 ![Without flat frame](/img/nonFlat.png) 
 
 
 #### Reference image 2 (A normal flat frame was applied)
 This is a live stacked image using a normal flat frame made in a bright environment with short exposure and low gain. All other conditions are the same as above. Although it is a little weak, stripes appear in the horizontal direction. The direction of the stripe is different because the direction of the tracking deviation changed.
-
 ![A normal flat frame was applied](/img/normalFlat.png) 
+
 
 #### Image applying "Same Condition Flat Frame"
 This is a live stacked image using the "Same Condition Flat Frame". All other conditions are the same as above.
-How about that. I think that the striped pattern has become almost invisible.
-
+How about that. I think that the striped pattern has become almost invisible. Just to be sure, I tried shooting two photos on the same night.
 ![Same Condition Flat Frame-1](/img/sameFlat1.png)
 ![Same Condition Flat Frame-2](/img/sameFlat2.png)
 
