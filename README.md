@@ -21,6 +21,9 @@ In order to verify this hypothesis, firstly I had to apply very little light to 
 
 This almost worked. I was able to acquire the condition not to be saturated with the exposure for 10 seconds, maximum gain (600) and temperature of -10 celsius with ASI 1600MM-C. This shooting condition is often when I shoot the diffuse nebula with Hα filter. And I made a flat frame stacked from 300 frames using SharpCap's Flat Frame capture function. Then just set this "Same Condition Flat Frame" to SharpCap's Flat Frame and try live stacking!
 
+#### Possible Issues
+Because the light intensity is low, the flat frame will contain more noise. It may be possible to reduce it by stacking a lot, but how many stacks are appropriate?
+
 ### Experimental result
 #### common conditions
 * Exposure time/frame: 10 sec 
@@ -43,7 +46,7 @@ This is a live stacked image using a normal flat frame made in a bright environm
 
 
 #### The Result: "Same Condition Flat Frame" is applied
-This is a live stacked image using the "Same Condition Flat Frame". All other conditions are the same as above.
+This is a live stacked image applied the "Same Condition Flat Frame". All other conditions are the same as above.
 How about that. I think that the striped pattern has become almost invisible. Just to be sure, I tried shooting two photos on the same night.
 
 ![Same Condition Flat Frame-1](/img/sameFlat1.png)
