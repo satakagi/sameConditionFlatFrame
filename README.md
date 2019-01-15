@@ -24,7 +24,7 @@ In order to verify this hypothesis, firstly I had to apply very little light to 
 This almost worked. I was able to acquire the condition not to be saturated with the exposure for 10 seconds, maximum gain (600) and temperature of -10 celsius with ASI1600MM-C. This shooting condition is often when I shoot the diffuse nebula with Hα filter. And I made a flat frame stacked from 300 frames using SharpCap's Flat Frame capture function. Then just set this "Same Condition Flat Frame" to SharpCap's Flat Frame and try live stacking!
 
 #### Possible Issues
-Because the light intensity is low, the flat frame will contain more noise. It may be possible to reduce it by stacking a lot, but how many stacks are appropriate?
+Because the light intensity is low, the flat frame will contain more noise. It may be possible to reduce it by stacking a lot, but how many stacks are appropriate? Also, since the brightness of the object is not uniform, the sensitivity that changes nonlinearly according to the brightness can not be completely eliminated by the flat frame
 
 ### Experimental result
 #### common conditions
