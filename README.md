@@ -19,7 +19,7 @@ There is a possibility that the flat frame has an effect of correcting variation
 ### Practice
 In order to verify this hypothesis, firstly I had to apply very little light to the CMOS imager. For this I decided to use a film that is used to shoot the sun. And controllable light.
 
-This almost worked. I was able to acquire the condition not to be saturated with the exposure for 10 seconds, maximum gain (600) and temperature of -10 celsius with ASI 1600MM-C. This shooting condition is often when I shoot the diffuse nebula with Hα filter. And I made a flat frame stacked from 300 frames using SharpCap's Flat Frame capture function. Then just set this "Same Condition Flat Frame" to SharpCap's Flat Frame and try live stacking!
+This almost worked. I was able to acquire the condition not to be saturated with the exposure for 10 seconds, maximum gain (600) and temperature of -10 celsius with ASI1600MM-C. This shooting condition is often when I shoot the diffuse nebula with Hα filter. And I made a flat frame stacked from 300 frames using SharpCap's Flat Frame capture function. Then just set this "Same Condition Flat Frame" to SharpCap's Flat Frame and try live stacking!
 
 #### Possible Issues
 Because the light intensity is low, the flat frame will contain more noise. It may be possible to reduce it by stacking a lot, but how many stacks are appropriate?
@@ -28,7 +28,7 @@ Because the light intensity is low, the flat frame will contain more noise. It m
 #### common conditions
 * Exposure time/frame: 10 sec 
 * 180 frames stacked (Total 30minutes)
-* Imager: ASI1800MM-C (-10 degree celsius)
+* Imager: ASI1600MM-C (-10 degree celsius)
 * Gain: 600 (Maximum)
 * Binning:2
 * Sigma-clipping
