@@ -13,7 +13,7 @@ In such circumstances, I saw [this blog article](https://apranat.exblog.jp/28129
 The cold pixel is not a pixel that is not working at all, it is a pixel with considerably low sensitivity. And, its sensitivity should decrease nonlinearly with decreasing light quantity. Then, he figured out [a method to recognize and remove cool pixels](https://apranat.exblog.jp/28135658/), but I thought cool pixels as "effective pixels with extremely low sensitivity but effective pixels" and by improving the accuracy of the flat frame, I attempted to eliminate the dispersion of sensitivity. Because it's easier to post-process and the processing method can basically be handled the same as the flat frame. And it seems to be compatible with live stacking.
 
 ## Same Condition Flat Frame
-***Note: This method has little confirmation therfore is only a hypothesis. If you are interested, I am happy that you will validate the hypothesis and share it.***
+***Note: This method only has a little confirmation therfore is only a hypothesis. If you are interested, I am happy that you will validate the hypothesis and share it.***
 
 ### Hypothesis
 There is a possibility that the flat frame has an effect of correcting variations in the sensitivity of pixels. However, if the sensitivity of a pixel varies nonlinearly, the flat frame captured in a bright environment does not work well. Therefore, it is preferable to use a flat frame captured using the same photographing condition under the same light amount as the object to be photographed.
