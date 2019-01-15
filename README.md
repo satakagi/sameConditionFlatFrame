@@ -1,3 +1,5 @@
+<p align="right">Language: <a href="https://satakagi.github.io/sameConditionFlatFrame/">English</a>, <a href="https://translate.google.com/translate?sl=en&tl=ja&u=https%3A%2F%2Fsatakagi.github.io%2FsameConditionFlatFrame%2F">Japanese (Google Translation)</a></p>
+
 ## Introduction
 
 I am an amateur astronomy enthusiast who enjoys celestial photography using a method of stacking a large amount of short exposure with CMOS imager.
@@ -52,5 +54,3 @@ How about that. I think that the striped pattern has become almost invisible. Ju
 ![Same Condition Flat Frame-1](/img/sameFlat1.png)
 ![Same Condition Flat Frame-2](/img/sameFlat2.png)
 
-
-### [gitHubPage](https://satakagi.github.io/sameConditionFlatFrame/)
