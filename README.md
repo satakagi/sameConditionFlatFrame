@@ -27,12 +27,13 @@ This almost worked. I was able to acquire the condition not to be saturated with
 Because the light intensity is low, the flat frame will contain more noise. It may be possible to reduce it by stacking a lot, but how many stacks are appropriate? Also, since the brightness of the object is not uniform, the sensitivity that changes nonlinearly according to the brightness can not be completely eliminated by the flat frame
 
 ### Experimental result
-#### common conditions
+#### Common conditions
 * Exposure time/frame: 10 sec 
 * 180 frames stacked (Total 30minutes)
 * Imager: ASI1600MM-C (-10 degree celsius)
 * Gain: 600 (Maximum)
 * Binning:2
+* Live Stacking / SharpCap (Pro3.2)
 * Sigma-clipping
 
 #### Reference image 1 (Without flat frame)
