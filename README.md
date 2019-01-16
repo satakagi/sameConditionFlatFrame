@@ -43,7 +43,7 @@ This is a live stacked image by SharpCap without using flat. Since guiding is no
 
 
 #### Reference image 2 (A normal flat frame was applied)
-This is a live stacked image using a normal flat frame made in a bright environment with short exposure and low gain. All other conditions are the same as above. Although it is a little weak, stripes appear in the horizontal direction. The direction of the stripe is different because the direction of the tracking deviation changed.
+This is a live stacked image using a normal flat frame which is made in a bright environment with short exposure and low gain. All other conditions are the same as above. Although it is a little weak, stripes appear in the horizontal direction. The direction of the stripe is different because the direction of the tracking deviation changed.
 
 ![A normal flat frame was applied](/img/normalFlat.png) 
 
