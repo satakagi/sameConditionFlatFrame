@@ -8,9 +8,9 @@ Here, when stretching dark and sparse objects such as diffuse nebulas, I had a p
 
 I already knew that there is a technique called dithering to solve these problems. However, I do not care even auto guiding. My shooting environment is unstable and soft balcony so it's hard to set up and operate. So, I thought about how to solve this problem more easily if possible.
 
-In such circumstances, I saw [this blog article](https://apranat.exblog.jp/28129764/).　(Please [translate it using google translate](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fapranat.exblog.jp%2F28129764%2F) etc. because it is Japanese) In this excellent article he investigated that cool pixels can not be eliminated even with dark frames or regular flat frames. The reason is being analyzed on this page.
+In such circumstances, I saw [this blog article](https://apranat.exblog.jp/28129764/).　(Please [translate it using google translate](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fapranat.exblog.jp%2F28129764%2F) etc. because it is Japanese) In this excellent article he investigated that cold pixels can not be eliminated even with dark frames or regular flat frames. The reason is being analyzed on this page.
 
-The cold pixel is not a pixel that is not working at all, it is a pixel with considerably low sensitivity. And, its sensitivity should decrease nonlinearly with decreasing light quantity. Then, he figured out [a method to recognize and remove cool pixels](https://apranat.exblog.jp/28135658/), on the other hand I thought cool pixels as "effective pixels with extremely low sensitivity" and by improving the accuracy of the flat frame, I attempted to eliminate the dispersion of sensitivity. Because it's easier to post-process and the processing method can basically be handled the same as the flat frame. And it seems to be compatible with live stacking.
+The cold pixel is not a pixel that is not working at all, it is a pixel with considerably low sensitivity. And, its sensitivity should decrease nonlinearly with decreasing light quantity. Then, he figured out [a method to recognize and remove cold pixels](https://apranat.exblog.jp/28135658/), on the other hand I thought cold pixels as "effective pixels with extremely low sensitivity" and by improving the accuracy of the flat frame, I attempted to eliminate the dispersion of sensitivity. Because it's easier to post-process and the processing method can basically be handled the same as the flat frame. And it seems to be compatible with live stacking.
 
 ## Same Condition Flat Frame
 ***Note: This method only has a little confirmation therfore is only a hypothesis. If you are interested, I am happy that you will validate the hypothesis and share it.***
@@ -37,7 +37,7 @@ Because the light intensity is low, the flat frame will contain more noise. It m
 * Sigma-clipping
 
 #### Reference image 1 (Without flat frame)
-This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cool pixel stretches and it is diagonally striped AKA "Walking Noise". The image is quite stretched so that noise emerges.
+This is a live stacked image by SharpCap without using flat. Since guiding is not done, the cold pixels stretches and there are diagonally striped AKA "Walking Noise". The image is quite stretched so that noise emerges.
 
 ![Without flat frame](/img/nonFlat.png) 
 
